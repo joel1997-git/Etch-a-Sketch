@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+}
+
+.footer {
+    padding-top: 400px;
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    justify-content: space-around;
+}
