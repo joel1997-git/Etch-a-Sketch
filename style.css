@@ -14,9 +14,40 @@ body {
 }
 
 .footer {
-    padding-top: 400px;
+    padding-top: 20px;
     display: flex;
     flex-direction: row;
     width: 400px;
     justify-content: space-around;
+}
+
+.Btn1 {
+    background-color: #000000;
+    color: white;
+    border-radius: 25ex;
+
+}
+
+.Btn2 {
+    background-color: purple;
+    color: white;
+    border-radius: 25ex;
+}
+
+.Btn3 {
+    background-color: grey;
+    border-radius: 25ex;
+}
+
+.Btn4 {
+    background-color: red;
+    border-radius: 25ex;
+
+}
+
+.Container { 
+    width: 500px;
+    height: 400px;
+    display: grid;
+    border: 1px solid black;
 }
